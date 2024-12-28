@@ -219,7 +219,7 @@ const App = () => {
                         {message.senderHash}
                       </Typography>
                     </Box>
-                    <Typography variant="body1" component="div" sx={{ ml: 3, }}>
+                    <Typography variant="body1" component="div" sx={{ ml: 3, whiteSpace: 'pre-wrap' }}>
                       {message.text.slice(0, message.cursorPosition)}
                       <ChatCursor />
                       {message.text.slice(message.cursorPosition)}
